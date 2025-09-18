@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:black;
+    padding: 1em;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    min-width: 25%;
+}
+#page{
+    min-width: 60%;
+    background-color:indigo;
+}
+
+#hero{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding:5em 0 5em 0;
+}
+#produkt{
+    background-color: black;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+}
+#vyber{
+    display: flex;
+    margin: 1em;
+    overflow: scroll;
+    padding: 1em;
+    max-width: 69%;
+    overflow-y: hidden;
+}
+.karta{
+    background-color: indigo;
+    color: white;
+    padding: 0.5em;
+    border-radius: 15px;
+    margin: 0 1em 0 1em;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+    border: 0;
+    border-radius: 15px;
+}
+.produkt_foto{
+    border-radius: 15px;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+
+a{
+    color: white;
+    font-size: 24px;
+}
+a:hover{
+    color: white;
+}
