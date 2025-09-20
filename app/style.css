@@ -4,6 +4,7 @@
 body{
     display: flex;
     justify-content: center;
+    background-image: url("pics/background.jpg") ;
 }
 header{
     display: flex;
@@ -73,6 +74,13 @@ button{
     margin: 15px;
     color: white;
   }
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    font-size: 24px;
+    padding: 2em;
+}
 #objednavka{
     margin: 1em;
 }
